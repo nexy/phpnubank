@@ -24,8 +24,8 @@ if (isset($_POST['uuid'])) {
   );
 
   try {
-    $saldo = 1000;//$nu->getAccountBalance();
-    $investimentos = 'Projeção aproximada para 31 de Agosto de 2021, seu dinheiro renderá R$ 1,13';//$nu->getAccountInvestimentsYields();
+    $saldo = $nu->getAccountBalance();
+    $investimentos = $nu->getAccountInvestimentsYields();
     $chaves = $nu->getAvailablePixKeys();
     $feed = $nu->getAccountFeed();
 
