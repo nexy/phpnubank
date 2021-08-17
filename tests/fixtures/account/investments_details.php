@@ -1,0 +1,42 @@
+<?php
+
+return [
+    'data' => [
+        'viewer' => [
+            'savingsAccount' => [
+                'redeemableDeposits' => [
+                    0 => [
+                        'id' => 'vjdhausd-asdg-bgfs-vfsg-jrthfuv',
+                        'rate' => 1,
+                        'vehicle' => 'RECEIPT_DEPOSIT',
+                        'openDate' => '2020-07-13',
+                        'maturityDate' => '2022-07-05',
+                        'principal' => 156.52,
+                        'redeemedBalance' => [
+                            'netAmount' => 0,
+                            'yield' => 0,
+                            'incomeTax' => 0,
+                            'iofTax' => 0,
+                            'id' => 'abcdefgh-ijkl-mnop-qrst-uvwxyz0123',
+                        ]
+                    ],
+                    2 => [
+                        'id' => 'ffghjyu-ktyu-dfgn-nfgh-asdgre',
+                        'rate' => 1,
+                        'vehicle' => 'RECEIPT_DEPOSIT',
+                        'openDate' => '2020-08-11',
+                        'maturityDate' => '2022-08-03',
+                        'principal' => 77.77,
+                        'redeemedBalance' => [
+                            'netAmount' => 39.99,
+                            'yield' => 0.05,
+                            'incomeTax' => 0.01,
+                            'iofTax' => 0.01,
+                            'id' => 'sdfgehhdf-jkre-thre-nghh-kuvsnjue633',
+                        ]
+                    ]
+                ],
+            ],
+        ],
+    ],
+];

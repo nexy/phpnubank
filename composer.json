@@ -1,0 +1,39 @@
+{
+    "name": "nexy/phpnubank",
+    "description": "Acesse seus extratos do Nubank pelo PHP (baseado em https://github.com/andreroggeri/pynubank)",
+    "type": "library",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Ricardo Coelho",
+            "email": "ricardo@nexy.com.br"
+        },
+        {
+            "name": "André Roggeri Campos",
+            "email": "a.roggeri.c@gmail.com"
+        },
+        {
+            "name": "Evaldo Barbosa",
+            "email": "evaldobarbosa@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "ramsey/uuid": "^4.2",
+        "chillerlan/php-qrcode": "^4.3",
+        "nesbot/carbon": "^2.51"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nubank\\": "src/",
+            "NuTests\\": "tests/",
+            "NuCli\\": "cli/"
+        },
+        "files": [
+            "src/Helpers/MyHelpers.php"
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+vendor
+.phpintel
+.idea
+examples/qrcode/credentials.php
